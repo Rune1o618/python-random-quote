@@ -11,8 +11,10 @@ def primary(): #Because its not C or C++
                          #element of that array
   last = 13  # Since our array has 13 elements we declare it in a last variable
   rnd = random.randint(0,13) #random function imported from random to genetare randint "random integer from 0 - 13"
+  new_rnd = random.randint(0,21) # checking 
 
-  print(quotes[rnd])          #print quotes
+  print(quotes[rnd],"\n")#print quotes
+  print(quotes[new_rnd])
 
 if __name__== "__main__":
   primary()
